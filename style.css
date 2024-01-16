@@ -50,10 +50,14 @@ main {
 
 .content-img {
   position: relative;
-  height: 350px;
+  height: 30vw;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.content-img img {
+  max-width: 100%;
 }
 
 .content-img i {
