@@ -29,4 +29,20 @@ class Product
   {
     return $this->prezzo;
   }
+  public function setImg($img)
+  {
+    $this->img = $img;
+  }
+  public function getImg()
+  {
+    return $this->img;
+  }
+  public function setCategory($category)
+  {
+    $this->category = $category;
+  }
+  public function getCategory()
+  {
+    return $this->category;
+  }
 }
