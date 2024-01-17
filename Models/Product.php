@@ -1,11 +1,13 @@
 <?php
 
 require_once __DIR__ . '/Category.php';
+require_once __DIR__ . '/../Traits/Prezzo.php';
 
 class Product
 {
+  use Prezzo;
+
   protected $nome;
-  protected $prezzo;
   protected $img;
   protected $category;
   function __construct($nome, $prezzo, $img, Category $category)

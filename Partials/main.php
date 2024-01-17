@@ -44,7 +44,7 @@ require_once __DIR__ . '/../Control/control.php';
               </h4>
               <!-- /CARATTERISTICA PRODOTTO IN BASE AL TIPO -->
               <!-- PREZZO -->
-              <div class="price"><?php echo $product->getPrezzo() ?></div>
+              <div class="price"><?php echo $product->getPriceWithCurrency('€') ?></div>
               <!-- /PREZZO -->
             </div>
             <!-- /INFO -->

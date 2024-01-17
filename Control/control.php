@@ -1,6 +1,7 @@
 <?php
 // importo classi per costruire i miei prodotti
 require_once __DIR__ . '/../Models/Category.php';
+require_once __DIR__ . '/../Traits/Prezzo.php';
 require_once __DIR__ . '/../Models/Product.php';
 require_once __DIR__ . '/../Models/Food.php';
 require_once __DIR__ . '/../Models/Toy.php';

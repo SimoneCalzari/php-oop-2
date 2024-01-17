@@ -1,7 +1,7 @@
 [
   {
     "nome": "Cibo 1",
-    "prezzo": "10 €",
+    "prezzo": "10",
     "img": "cibo1.jpg",
     "category": "cat",
     "type": "food",
@@ -10,7 +10,7 @@
   },
   {
     "nome": "Gioco 1",
-    "prezzo": "20 €",
+    "prezzo": "20",
     "img": "gioco1.jpg",
     "category": "dog",
     "type": "toy",
@@ -19,7 +19,7 @@
   },
   {
     "nome": "Cuccia 1",
-    "prezzo": "50 €",
+    "prezzo": "50",
     "img": "cuccia1.jpg",
     "category": "cat",
     "type": "kennel",
@@ -28,7 +28,7 @@
   },
   {
     "nome": "Cibo 2",
-    "prezzo": "15 €",
+    "prezzo": "15",
     "img": "cibo2.jpg",
     "category": "dog",
     "type": "food",
@@ -37,7 +37,7 @@
   },
   {
     "nome": "Gioco 2",
-    "prezzo": "30 €",
+    "prezzo": "30",
     "img": "gioco2.jpg",
     "category": "cat",
     "type": "toy",
@@ -46,7 +46,7 @@
   },
   {
     "nome": "Cuccia 2",
-    "prezzo": "30 €",
+    "prezzo": "30",
     "img": "cuccia2.jpg",
     "category": "dog",
     "type": "kennel",
@@ -55,7 +55,7 @@
   },
   {
     "nome": "Cibo 3",
-    "prezzo": "5 €",
+    "prezzo": "5",
     "img": "cibo3.jpg",
     "category": "cat",
     "type": "food",
@@ -64,16 +64,16 @@
   },
   {
     "nome": "Gioco 3",
-    "prezzo": "100 €",
+    "prezzo": "100",
     "img": "gioco3.jpg",
     "category": "dog",
     "type": "toy",
     "material": "plastic",
-    "icon": "<i class=\"fa-solid fa-cat\"></i>"
+    "icon": "<i class=\"fa-solid fa-dog\"></i>"
   },
   {
     "nome": "Cuccia 3",
-    "prezzo": "10 €",
+    "prezzo": "10",
     "img": "cuccia3.jpg",
     "category": "cat",
     "type": "kennel",
