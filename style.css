@@ -83,10 +83,11 @@ main {
 .content-text span {
   font-weight: lighter;
   font-size: 16px;
+  display: inline-block;
 }
 
 .content-text span::first-letter {
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .content-text .price {

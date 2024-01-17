@@ -33,6 +33,11 @@ require_once __DIR__ . '/../Control/control.php';
                 Type: <span><?php echo $product->getType() ?></span>
               </h4>
               <!-- /TIPO PRODOTTO -->
+              <!-- CATEGORIA -->
+              <h4>
+                Category: <span><?php echo $product->getCategory()->getCategory() ?></span>
+              </h4>
+              <!-- /CATEGORIA -->
               <!-- CARATTERISTICA PRODOTTO IN BASE AL TIPO -->
               <h4>
                 <?php if ($product instanceof Food) : ?>
