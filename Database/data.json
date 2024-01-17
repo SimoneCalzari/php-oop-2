@@ -5,7 +5,7 @@
     "img": "cibo1.jpg",
     "category": "cat",
     "type": "food",
-    "peso": "100 g",
+    "peso": "100",
     "icon": "<i class=\"fa-solid fa-cat\"></i>"
   },
   {
@@ -32,7 +32,7 @@
     "img": "cibo2.jpg",
     "category": "dog",
     "type": "food",
-    "peso": "250 g",
+    "peso": "250",
     "icon": "<i class=\"fa-solid fa-dog\"></i>"
   },
   {
@@ -59,7 +59,7 @@
     "img": "cibo3.jpg",
     "category": "cat",
     "type": "food",
-    "peso": "500 g",
+    "peso": "500",
     "icon": "<i class=\"fa-solid fa-cat\"></i>"
   },
   {

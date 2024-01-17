@@ -2,11 +2,13 @@
 
 require_once __DIR__ . '/Category.php';
 require_once __DIR__ . '/Product.php';
+require_once __DIR__ . '/../Traits/Peso.php';
+
 
 class Food extends Product
 {
+  use Peso;
   private $type;
-  private $peso;
 
   function __construct($nome, $prezzo, $img, Category $category, $type, $peso)
   {

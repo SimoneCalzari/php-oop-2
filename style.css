@@ -83,6 +83,9 @@ main {
 .content-text span {
   font-weight: lighter;
   font-size: 16px;
+}
+
+.content-text span::first-letter {
   text-transform: capitalize;
 }
 

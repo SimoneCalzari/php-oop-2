@@ -1,6 +1,7 @@
 <?php
 // importo array con prodotti
 require_once __DIR__ . '/../Control/control.php';
+
 ?>
 
 <main>
@@ -35,7 +36,7 @@ require_once __DIR__ . '/../Control/control.php';
               <!-- CARATTERISTICA PRODOTTO IN BASE AL TIPO -->
               <h4>
                 <?php if ($product instanceof Food) : ?>
-                  Peso: <span><?php echo $product->getPeso() ?></span>
+                  Peso: <span><?php echo $product->getPesoWithUnit('Kg') ?></span>
                 <?php elseif ($product instanceof Toy) : ?>
                   Material: <span><?php echo $product->getMaterial() ?></span>
                 <?php else : ?>
@@ -44,7 +45,7 @@ require_once __DIR__ . '/../Control/control.php';
               </h4>
               <!-- /CARATTERISTICA PRODOTTO IN BASE AL TIPO -->
               <!-- PREZZO -->
-              <div class="price"><?php echo $product->getPriceWithCurrency('€') ?></div>
+              <div class="price"><?php echo $product->getPriceWithCurrency('£') ?></div>
               <!-- /PREZZO -->
             </div>
             <!-- /INFO -->
