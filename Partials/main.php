@@ -13,11 +13,7 @@ require_once __DIR__ . '/../Control/control.php';
             <!-- IMMAGINE -->
             <div class="content-img">
               <!-- ICONA CATEGORIA -->
-              <?php if ($product->getCategory()->getCategory() === 'dog') : ?>
-                <i class="fa-solid fa-dog"></i>
-              <?php else : ?>
-                <i class="fa-solid fa-cat"></i>
-              <?php endif; ?>
+              <?php echo $product->getCategory()->getIcon() ?>
               <!-- /ICONA CATEGORIA -->
               <!-- IMMAGINE PRODOTTO -->
               <img src="<?php echo "img/{$product->getImg()}"; ?>" alt="Foto Prodotto">

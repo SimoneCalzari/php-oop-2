@@ -13,21 +13,21 @@ $products = [];
 foreach ($data_db as $product) {
   if ($product['type'] === 'food') {
     // salvo oggetto categoria in una variabile
-    $category = new Category($product['category']);
+    $category = new Category($product['category'], $product['icon']);
     // salvo oggetto food in una variabile
     $food = new Food($product['nome'], $product['prezzo'], $product['img'], $category, $product['type'], $product['peso']);
     //pusho food in array prodotti
     $products[] = $food;
   } else if ($product['type'] === 'toy') {
     // salvo oggetto categoria in una variabile
-    $category = new Category($product['category']);
+    $category = new Category($product['category'], $product['icon']);
     // salvo oggetto toy in una variabile
     $toy = new Toy($product['nome'], $product['prezzo'], $product['img'], $category, $product['type'], $product['material']);
     //pusho toy in array prodotti
     $products[] = $toy;
   } else {
     // salvo oggetto categoria in una variabile
-    $category = new Category($product['category']);
+    $category = new Category($product['category'], $product['icon']);
     // salvo oggetto toy in una variabile
     $kennel = new Kennel($product['nome'], $product['prezzo'], $product['img'], $category, $product['type'], $product['size']);
     //pusho toy in array prodotti

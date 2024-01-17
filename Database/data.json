@@ -5,7 +5,8 @@
     "img": "cibo1.jpg",
     "category": "cat",
     "type": "food",
-    "peso": "100 g"
+    "peso": "100 g",
+    "icon": "<i class=\"fa-solid fa-cat\"></i>"
   },
   {
     "nome": "Gioco 1",
@@ -13,7 +14,8 @@
     "img": "gioco1.jpg",
     "category": "dog",
     "type": "toy",
-    "material": "plastic"
+    "material": "plastic",
+    "icon": "<i class=\"fa-solid fa-dog\"></i>"
   },
   {
     "nome": "Cuccia 1",
@@ -21,7 +23,8 @@
     "img": "cuccia1.jpg",
     "category": "cat",
     "type": "kennel",
-    "size": "medium"
+    "size": "medium",
+    "icon": "<i class=\"fa-solid fa-cat\"></i>"
   },
   {
     "nome": "Cibo 2",
@@ -29,7 +32,8 @@
     "img": "cibo2.jpg",
     "category": "dog",
     "type": "food",
-    "peso": "250 g"
+    "peso": "250 g",
+    "icon": "<i class=\"fa-solid fa-dog\"></i>"
   },
   {
     "nome": "Gioco 2",
@@ -37,7 +41,8 @@
     "img": "gioco2.jpg",
     "category": "cat",
     "type": "toy",
-    "material": "rubber"
+    "material": "rubber",
+    "icon": "<i class=\"fa-solid fa-cat\"></i>"
   },
   {
     "nome": "Cuccia 2",
@@ -45,7 +50,8 @@
     "img": "cuccia2.jpg",
     "category": "dog",
     "type": "kennel",
-    "size": "large"
+    "size": "large",
+    "icon": "<i class=\"fa-solid fa-dog\"></i>"
   },
   {
     "nome": "Cibo 3",
@@ -53,7 +59,8 @@
     "img": "cibo3.jpg",
     "category": "cat",
     "type": "food",
-    "peso": "500 g"
+    "peso": "500 g",
+    "icon": "<i class=\"fa-solid fa-cat\"></i>"
   },
   {
     "nome": "Gioco 3",
@@ -61,7 +68,8 @@
     "img": "gioco3.jpg",
     "category": "dog",
     "type": "toy",
-    "material": "plastic"
+    "material": "plastic",
+    "icon": "<i class=\"fa-solid fa-cat\"></i>"
   },
   {
     "nome": "Cuccia 3",
@@ -69,6 +77,7 @@
     "img": "cuccia3.jpg",
     "category": "cat",
     "type": "kennel",
-    "size": "small"
+    "size": "small",
+    "icon": "<i class=\"fa-solid fa-cat\"></i>"
   }
 ]
