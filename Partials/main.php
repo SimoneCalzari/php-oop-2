@@ -50,7 +50,18 @@ require_once __DIR__ . '/../Control/control.php';
               </h4>
               <!-- /CARATTERISTICA PRODOTTO IN BASE AL TIPO -->
               <!-- PREZZO -->
-              <div class="price"><?php echo $product->getPriceWithCurrency('£') ?></div>
+              <div class="price">
+                <?php
+                // provo a stampare il prezzo con la valuta
+                try {
+                  echo $product->getPriceWithCurrency('£');
+                }
+                // se la funzione mi lancia un eccezione(il prezzo non è numerico) stampo un messaggio per l'utente dove dico che il prezzo non è disponibile
+                catch (Exception $e) {
+                  echo 'Prezzo non disponibile';
+                }
+                ?>
+              </div>
               <!-- /PREZZO -->
             </div>
             <!-- /INFO -->

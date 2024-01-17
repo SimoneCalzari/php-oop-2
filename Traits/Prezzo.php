@@ -6,6 +6,10 @@ trait Prezzo
 
   public function getPriceWithCurrency($currency)
   {
+    // verifico se il prezzo è un valore numerico, se non dovesse esserlo lancio un'eccezione per qualcun altro che lavorerà al mio codice
+    if (!is_numeric($this->prezzo)) {
+      throw new Exception('Il valore inserito non è numerico');
+    }
     return $this->prezzo . " $currency";
   }
 }
